@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My webpage</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active backgroundPicture" data-bs-interval="10000">
+                    <img src="slider.png" width="428" class="d-block w-100 sliderImg1" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item backgroundPicture" data-bs-interval="2000">
+                    <img src="slider.png" width="428" class="d-block w-100 sliderImg2" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item backgroundPicture">
+                    <img src="slider.png" width="428" class="d-block w-100 sliderImg3" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <a href="#" class="arrow"><img src="arrow.png" width="20"></a>
+        <div>
+            <!-- <h1 class="h1">Air Jordan 3 Retro</h1> -->
+            <button class="likeButton">
+                <img class="blackHeart" src="heart black.png" width="25">
+                <img class="redHeart" src="heart red.png" width="25">
+            </button>
+            <div class="soldNumber">
+                <p>5,371 sold</p>
+            </div>
+            <div class="starPoint">
+                <img class="starImg" src="star-half.svg" width="20">
+                <p class="score">4.3 (5,389 reviews)</p>
+            </div>
+            <div class="line"></div>
+            <div class="description">
+                <h2 class="desHed">Description</h2>
+                <p>In ultricies fermentum aliquet. Pellentesque dui magna, condimentum non ullamcorp <a href="#"
+                        class="viewMore">view
+                        more...</a>
+                </p>
+            </div>
+            <div class="select">
+                <div class="size">
+                    <h2 class="sizeLabel">Size</h2>
+                    <button class="sizeNumber sizeBtn1">40</button>
+                    <button class="sizeNumber sizeBtn2">41</button>
+                    <button class="sizeNumber sizeBtn3">42</button>
+                    <!-- <button type="button" class="btn btn-outline-dark rounded-circle">40</button>
+                    <button type="button" class="btn btn-outline-dark rounded-circle">41</button>
+                    <button type="button" class="btn btn-outline-dark rounded-circle">42</button> -->
+                </div>
+                <div class="color">
+                    <h2 class="colorHed">Color</h2>
+                    <div class="scroll">
+                        <button class="colorBtn gray"></button>
+                        <button class="colorBtn green"></button>
+                        <button class="colorBtn purple"></button>
+                        <button class="colorBtn brown"></button>
+                        <button class="colorBtn blue"></button>
+                    </div>
+                </div>
+                <div class="quantity">
+                    <div class="counter">
+                        <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                        <input class="counterInput" type="text" value="1">
+                        <span class="up" onClick='increaseCount(event, this)'>+</span>
+                    </div>
+                </div>
+                <div class="line2"></div>
+                <div>
+                    <div class="totalContainer">
+                        <h3 class="totalHed">Total price</h3>
+                        <!-- <p class="totalNum">$240.00</p> -->
+                    </div>
+                    <a href="../cart page/index.html">
+                        <button class="buyButton">Add to Cart</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>

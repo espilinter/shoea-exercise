@@ -1,0 +1,89 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.filter {
+    height: 39px;
+    display: block;
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+
+.header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #152536;
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.shoesPicture {
+    height: 182px;
+    width: 182px;
+    border: 0;
+    border-radius: 24px;
+    background-color: #F3F3F3;
+}
+
+.shoesImg {
+    margin: 20px 20px;
+}
+
+.shoesName {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: -0.04em;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.price {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 182px);
+    column-gap: 16px;
+    padding-left: 16px;
+    padding-bottom: 66px;
+}
+
+.filterButtons {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #343A40;
+    border: #343A40 solid;
+    border-radius: 25px;
+    background-color: white;
+    height: 39px;
+    padding: 10px 20px;
+}
+
+.activeButtons {
+    background-color: #343A40;
+    color: white;
+}
+
+.arrow {
+    margin-left: 32px;
+}

@@ -1,0 +1,302 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.buttons {
+    width: 100%;
+    height: 38px;
+}
+
+.buttonsName {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 2.8%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.navButtons {
+    display: grid;
+    grid-template-columns: repeat(5, 6.77%);
+    column-gap: 10.2%;
+    padding-left: 11.2%;
+    padding-top: 3%;
+    padding-bottom: 3.5%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.topPart {
+    margin-left: 8%;
+}
+
+.logoImg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 4.5%;
+}
+
+.topHed {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8%;
+    font-size: 24px;
+}
+
+.searchImg {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50%;
+}
+
+.totalHed {
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(172, 172, 172);
+    margin-bottom: 0;
+}
+
+.totalNum {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+
+.totalContainer {
+    display: inline-block;
+    margin-left: 5.6%;
+    margin-top: 25px;
+    vertical-align: middle;
+}
+
+.buyButton {
+    width: 58.5%;
+    height: 55px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-left: 7%;
+    margin-top: 20px;
+    vertical-align: top;
+    vertical-align: middle;
+    box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.150);
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    bottom: 65px;
+    left: 0;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+
+.quantity {
+    margin-left: 28px;
+}
+
+.counter {
+    width: 36%;
+    margin-left: 9.4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter input {
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    appearance: none;
+    outline: 0;
+    width: 20px;
+    height: 35px;
+    font-weight: 600;
+}
+
+.counter span {
+    font-weight: 500;
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 12px;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(230, 230, 230);
+    height: 37px;
+}
+
+.down {
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+
+}
+
+.up {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+.shoesImg {
+    border-radius: 20%;
+    display: inline-block;
+    margin-top: 2.5px;
+    /* margin-left: 15px; */
+}
+
+.shoesHed {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.trashIcon {
+    display: inline-block;
+    margin-left: -8px;
+    margin-top: -2px;
+}
+
+.shoescontainer {
+    margin: auto;
+    height: 150px;
+    width: 380px;
+    border-radius: 30px;
+    box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.079);
+    display: flex;
+    margin-top: 20px;
+}
+
+.shoesColor {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+
+.shoesPicture {
+    width: 130px;
+    height: 130px;
+    background-color: rgb(243, 243, 243);
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20%;
+}
+
+.shoesData {
+    width: 230px;
+}
+
+.shoesP {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.shoesPrice {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 15px;
+    vertical-align: middle;
+    /* margin-top: 10px; */
+}
+
+.quantity {
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: middle;
+    margin-top: 0;
+
+}
+
+.trashButton {
+    width: 20px;
+    height: 20px;
+    margin-top: 11px;
+    margin-left: 5px;
+    vertical-align: top;
+    background-color: white;
+    border: 0;
+}
+
+/***********************************************************/
+.backGround {
+    width: 100%;
+    height: 926px;
+    background-color: rgba(0, 0, 0, 0.50);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.form-popup {
+    width: 428px;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+
+.popupHed {
+    margin: auto;
+    width: fit-content;
+    margin-top: 30px;
+
+}
+
+.line {
+    background-color: #cccccc;
+    width: 381px;
+    height: 1px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.cancelBtn {
+    width: 40%;
+    height: 50px;
+    background-color: #dadada;
+    border: 0;
+    border-radius: 25px;
+    margin-left: 7%;
+    margin-bottom: 30px;
+}
+
+.removeBtn {
+    width: 40%;
+    height: 50px;
+    background-color: black;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+    margin-left: 6%;
+    margin-bottom: 30px;
+
+}

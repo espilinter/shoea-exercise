@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My webpage</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="emptyArea"></div>
+    <div class="topPart">
+        <img class="arrowImg" src="arrow.png">
+        <h1 class="topHed">Payment Methods</h1>
+        <button class="topButton"><img class="topButtonImg" src="add.png" width="30"></button>
+    </div>
+    <p class="topP">Select the payment method you want to use.</p>
+
+    <div class="address">
+        <div>
+            <div class="addressContainer">
+                <div class="locPicture">
+                    <img class="locImg" src="wallet.png" width="30">
+                </div>
+                <div class="addressData">
+                    <h3 class="adHed">Economy</h3>
+                    <p class="adP">Estimated Arrival, Doc 18-19</p>
+                </div>
+                <input class="radio" type="radio" name="radio">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="address">
+        <div>
+            <div class="addressContainer">
+                <div class="locPicture">
+                    <img class="locImg" src="paypal.png" width="30">
+                </div>
+                <div class="addressData">
+                    <h3 class="adHed">Regular</h3>
+                    <p class="adP">Estimated Arrival, Doc 18-19</p>
+                </div>
+                <input class="radio" type="radio" name="radio">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="address">
+        <div>
+            <div class="addressContainer">
+                <div class="locPicture">
+                    <img class="locImg" src="google.png" width="30">
+                </div>
+                <div class="addressData">
+                    <h3 class="adHed">Cargo</h3>
+                    <p class="adP">Estimated Arrival, Doc 18-19</p>
+                </div>
+                <input class="radio" type="radio" name="radio">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="address">
+        <div>
+            <div class="addressContainer">
+                <div class="locPicture">
+                    <img class="locImg" src="apple.png" width="30">
+                </div>
+                <div class="addressData">
+                    <h3 class="adHed">Express</h3>
+                    <p class="adP">Estimated Arrival, Doc 18-19</p>
+                </div>
+                <input class="radio" type="radio" name="radio">
+            </div>
+        </div>
+    </div>
+
+    <div class="address">
+        <div>
+            <div class="addressContainer">
+                <div class="locPicture">
+                    <img class="locImg" src="mastercard.png" width="30">
+                </div>
+                <div class="addressData">
+                    <h3 class="adHed">Express</h3>
+                    <p class="adP">Estimated Arrival, Doc 18-19</p>
+                </div>
+                <input class="radio" type="radio" name="radio">
+            </div>
+        </div>
+    </div>
+
+    <div class="emptyAreaBottom"></div>
+
+    <div class="bottomPart">
+        <button class="continueButton" onclick="openForm()">Confrim Payment</button>
+    </div>
+
+    <div class="backGround"></div>
+
+    <div class="paymentSuccessful">
+        <img class="successImg" src="successful.png">
+        <h1 class="successHed">Order Successful!</h1>
+        <p class="successP">you have successfully made order</p>
+        <button class="orderButton">View Order</button>
+        <button class="receiptButton">View E-Receipt</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.searchBox {
+    width: 380px;
+    border-radius: 4px;
+    background-color: #FAFAFA;
+    border: 0;
+    margin-left: 16px;
+    height: 37px;
+    display: flex;
+}
+
+.searchIcon {
+    margin-left: 11px;
+    margin-top: 11px;
+    position: absolute;
+}
+
+.Input {
+    background-color: #FAFAFA;
+    height: 37px;
+    border: 0;
+    width: 380px;
+    padding-left: 32px;
+    border: 4px;
+}
+
+.Input:focus {
+    border: black solid;
+
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: #ECECEC;
+    border-radius: 50%;
+}
+
+.marks {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.logoName {
+    width: 60px;
+    height: 17px;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #152536;
+}
+
+.shoesLogo {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    column-gap: 41px;
+    row-gap: 28px;
+    margin-left: 24px;
+    margin-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.logoBoxs {
+    height: 91px;
+    width: 60px;
+}
+
+.buttons {
+    width: 428px;
+    height: 38px;
+}
+
+.buttonsName {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.navButtons {
+    display: grid;
+    grid-template-columns: repeat(5, 29px);
+    column-gap: 44px;
+    padding-left: 48px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 428px;
+}
+
+.shoesPicture {
+    height: 182px;
+    width: 182px;
+    border: 0;
+    border-radius: 24px;
+    background-color: #F3F3F3;
+}
+
+.shoesImg {
+    margin: 20px 20px;
+}
+
+.shoesName {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: -0.04em;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.price {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 182px);
+    column-gap: 16px;
+    padding-left: 16px;
+    padding-bottom: 66px;
+}
+
+.header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #152536;
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.seeAll {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #152536;
+    display: inline-block;
+    margin-left: 195px;
+    margin-top: 19px;
+    text-decoration: none;
+}
+
+.filter {
+    height: 45px;
+    display: block;
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    padding-bottom: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.filter::-webkit-scrollbar {
+    width: 0;
+}
+
+.filterButtons {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #343A40;
+    border: #343A40 solid;
+    border-radius: 25px;
+    background-color: white;
+    height: 39px;
+    padding: 10px 20px;
+}
+
+.activeButtons {
+    background-color: #343A40;
+    color: white;
+}
+
+/* text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden; */

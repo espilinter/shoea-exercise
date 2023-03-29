@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My webpage</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <main>
+
+        <div class="topPart">
+            <img class="logoImg" src="Vector.png">
+            <h1 class="topHed">My Cart</h1>
+            <img class="searchImg" src="search-outline.svg" width="30">
+        </div>
+        <!-- 
+        <div class="shoescontainer">
+            <div class="shoesPicture">
+                <img class="shoesImg" src="shoes.png" width="130">
+            </div>
+            <div class="shoesData">
+                <h2 class="shoesHed">Air jordan 3 Retro</h2>
+                <button class="trashButton" onclick="openForm()">
+                    <img class="trashIcon" src="trash-outline.svg" width="20">
+                </button>
+                <div class="shoesColor"></div>
+                <p class="shoesP">Black | Size = 42</p>
+                <p class="shoesPrice">$105.00</p>
+                <div class="quantity">
+                    <div class="counter">
+                        <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                        <input type="text" value="1">
+                        <span class="up" onClick='increaseCount(event, this)'>+</span>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <div class="container">
+            <div class="totalContainer">
+                <h3 class="totalHed">Total price</h3>
+                <!-- <p class="totalNum">$240.00</p> -->
+            </div>
+            <a href="../checkout page/index.html"><button class="buyButton">Add to Cart</button></a>
+        </div>
+
+        <div class="navButtons">
+            <div class="buttons">
+                <a href="../home page/home page.html">
+                    <img src="house-door-fill.svg" width="24">
+                </a>
+                <p class="buttonsName">Home</p>
+            </div>
+            <div class="buttons">
+                <a href="#">
+                    <img src="bag.png" width="24">
+                </a>
+                <p class="buttonsName">Cart</p>
+            </div>
+            <div class="buttons">
+                <a href="../my order page/index.html">
+                    <img src="cart2.png" width="24">
+                </a>
+                <p class="buttonsName">Orders</p>
+            </div>
+            <div class="buttons">
+                <a href="#">
+                    <img src="wallet2.png" width="24">
+                </a>
+                <p class="buttonsName">Wallet</p>
+            </div>
+            <div class="buttons">
+                <a href="#">
+                    <img src="person.png" width="24">
+                </a>
+                <p class="buttonsName">Profile</p>
+            </div>
+        </div>
+
+        <!---------------------------------------------------->
+        <div class="backGround"></div>
+
+        <div class="form-popup" id="myForm">
+            <h2 class="popupHed">Remove Form Cart?</h2>
+            <div class="line removeShoeLine"></div>
+
+            <div class="shoescontainer">
+                <div class="shoesPicture">
+                    <img class="shoesImg" src="shoes.png" width="130">
+                </div>
+                <div class="shoesData">
+                    <h2 class="shoesHed">K-Swiss ista Trainer</h2>
+                    <div class="shoesColor"></div>
+                    <p class="shoesP">Black | Size = 42</p>
+                    <p class="shoesPrice">$105.00</p>
+                    <div class="quantity">
+                        <div class="counter">
+                            <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                            <input type="text" value="1">
+                            <span class="up" onClick='increaseCount(event, this)'>+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+            <button type="button" class="cancelBtn" onclick="closeForm()">Cancel</button>
+            <button class="removeBtn" onclick="remove() ; closeForm()"> Yes, Remove</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

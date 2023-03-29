@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "Email": "farshad@gmail.com",
+      "password": "12345678",
+      "name": "farshad",
+      "id": 1,
+      "address": [
+        {
+          "id": 1,
+          "name": "home",
+          "ad": "2952 Wilkinson Court"
+        },
+        {
+          "id": 2,
+          "name": "Office",
+          "ad": "1080 Berkshire Circle"
+        },
+        {
+          "id": 3,
+          "name": "Apartment",
+          "ad": "1560  Felosa Drive"
+        },
+        {
+          "id": 4,
+          "name": "Parent's House",
+          "ad": "399 Williams Mine Road"
+        }
+      ]
+    },
+    {
+      "Email": "ali@gmail.com",
+      "password": "87654321",
+      "name": "ali",
+      "id": 2,
+      "address": [
+        {
+          "name": "home",
+          "ad": "2952 Wilkinson Court"
+        }
+      ]
+    },
+    {
+      "Email": "taqi@gmail.com",
+      "password": "11111111",
+      "name": "taghi",
+      "id": 3,
+      "address": [
+        {
+          "name": "home",
+          "ad": "2952 Wilkinson Court"
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "size": "41",
+      "color": "#6a4c3c",
+      "number": "1"
+    },
+    {
+      "size": "42",
+      "color": "#1e90ff",
+      "number": "1",
+      "id": 6
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "K-Swiss ista Trainer",
+      "price": "120.00",
+      "img": "../home page/shoes1.png",
+      "mark": "Nike"
+    },
+    {
+      "id": 2,
+      "name": "K-Swiss ista Trainer",
+      "price": "100.00",
+      "img": "../home page/shoes2.png",
+      "mark": "Nike"
+    },
+    {
+      "id": 3,
+      "name": "K-Swiss ista Trainer",
+      "price": "135.00",
+      "img": "../home page/shoes3.png",
+      "mark": "Nike"
+    },
+    {
+      "id": 4,
+      "name": "K-Swiss ista Trainer",
+      "price": "115.00",
+      "img": "../home page/shoes4.png",
+      "mark": "Puma"
+    },
+    {
+      "id": 5,
+      "name": "K-Swiss ista Trainer",
+      "price": "105.00",
+      "img": "../home page/shoes5.png",
+      "mark": "Puma"
+    },
+    {
+      "id": 6,
+      "name": "K-Swiss ista Trainer",
+      "price": "110.00",
+      "img": "../home page/shoes6.png",
+      "mark": "Adidas"
+    }
+  ],
+  "productPageData": [
+    {
+      "id": 1,
+      "name": "K-Swiss ista Trainer",
+      "price": "115.00",
+      "img": "../home page/shoes4.png",
+      "mark": "Nike"
+    }
+  ],
+  "shippingAdress": [
+    {
+      "shippingPrice": "15",
+      "shippingName": "Regular",
+      "id": 1
+    },
+    {
+      "shippingPrice": "30",
+      "shippingName": "Express",
+      "id": 2
+    },
+    {
+      "shippingPrice": "30",
+      "shippingName": "Express",
+      "id": 3
+    },
+    {
+      "shippingPrice": "30",
+      "shippingName": "Express",
+      "id": 4
+    },
+    {
+      "shippingPrice": "30",
+      "shippingName": "Express",
+      "id": 5
+    }
+  ],
+  "shoesMark": [
+    {
+      "mark": "Nike",
+      "id": 1
+    },
+    {
+      "mark": "Nike",
+      "id": 2
+    },
+    {
+      "mark": "Adidas",
+      "id": 3
+    },
+    {
+      "mark": "Nike",
+      "id": 4
+    }
+  ]
+}

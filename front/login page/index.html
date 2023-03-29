@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My webpage</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <a href="#">
+            <img class="arrow" src="arrow-left-short.png" width="32">
+        </a>
+        <img class="logo" src="logo.png" width="54">
+        <h1 class="header">Login to Your Account</h1>
+
+        <form>
+            <div class="InputBox">
+                <i class="icon1"><img src="input-prefix.png" width="16"></i>
+                <input type="email" class="Input" id="email" placeholder="Email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" minlength="12">
+            </div>
+            <div class="InputBox password">
+                <i class="icon1"><img src="input-prefix2.png" width="16"></i>
+                <input type="password" id="password" class="Input passwordInput" placeholder="Password" minlength="5"
+                    maxlength="20" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$">
+            </div>
+
+            <p class="erorSpace">*Email or password is wrong*</p>
+
+            <div class="checkbox">
+                <input class="box" type="checkbox">
+                <label class="label">Remember me</label>
+            </div>
+
+        </form>
+        <button class="buttun" onclick="filterData()">Sing in</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

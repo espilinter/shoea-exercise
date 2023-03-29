@@ -1,0 +1,85 @@
+main {
+    width: 428px;
+    height: 926px;
+
+}
+
+.onboardingPage1 {
+    background-image: url("onboarding page 1.png");
+    /* ///////////////////////////////////////// */
+    /* display: none; */
+    /* ///////////////////////////////////////// */
+}
+
+.spinner {
+    margin-top: 761px;
+    margin-left: 190px;
+}
+
+.onboardingPage2 {
+    background-image: url("onboarding page 2.png");
+    display: none;
+}
+
+.page3Text {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.nextButton {
+    width: 380px;
+    height: 43px;
+    border-radius: 30px;
+    background-color: #212529;
+    border: 0;
+    color: white;
+    margin-left: 24px;
+    margin-top: 850px;
+}
+
+.onboardingPage3 {
+    background-image: url("onboarding page 3.png");
+    display: none;
+}
+
+.onboardingPage4 {
+    background-image: url("onboarding page 4.png");
+    display: none;
+}
+
+.onboardingPage5 {
+    background-image: url("onboarding page 5.png");
+    display: none;
+}
+
+.pagination {
+    width: 102px;
+    height: 23px;
+    position: absolute;
+    top: 785px;
+    left: 163px;
+}
+
+.lineBox {
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    column-gap: 6px;
+}
+
+.lines {
+    height: 3px;
+    width: 30px;
+    background-color: grey;
+    margin-top: 10px;
+    margin-right: 6px;
+}
+
+.activeLine {
+    background-color: black;
+}
+
+.NM {
+    margin-right: 0;
+}
